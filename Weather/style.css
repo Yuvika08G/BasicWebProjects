@@ -218,8 +218,6 @@ body::before {
     25% { transform: translateX(-5px); }
     75% { transform: translateX(5px); }
 }
-
-/* Responsive Design */
 @media (max-width: 768px) {
     .container {
         padding: 15px;
@@ -293,8 +291,6 @@ body::before {
         font-size: 60px;
     }
 }
-
-/* Custom scrollbar */
 ::-webkit-scrollbar {
     width: 8px;
 }
